@@ -4,11 +4,10 @@
     "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
     "parserOptions": {
         "lib": ["ES2022"],
-        "ecmaVersion": 2021,
+        "ecmaVersion": 2022,
         "sourceType": "module"
     },
     "rules": {
-        "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/consistent-type-definitions": ["error", "type"]
     }
